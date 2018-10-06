@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans');
+
 body {
     text-align: center;
+}
+
+h1 {
+    color: #C80FA0;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 32px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+button {
+    padding: 10px;
 }
