@@ -1,3 +1,10 @@
+/*
+ * Resources Used:
+ * - Watched this to get some ideas: https://www.youtube.com/watch?v=oz7pHJ65TEk&feature=youtu.be
+ * - Read through: https://matthewcranford.com/arcade-game-walkthrough-part-6-collisions-win-conditions-and-game-resets/
+ * - Ultimately went with my own approach
+ * */
+
 // Now write your own player class
 // This class requires an update(), render() and
 // a handleInput() method.
