@@ -7,7 +7,7 @@
 * [Technical Feats](#technical-feats)
 * [Getting Started](#getting-started)
 
-## Instructions
+## Description
 
 This is a browser-based overhead view game (similar to Frogger) tests your click-eye coordination by using collision detection and key press event listeners.
 
