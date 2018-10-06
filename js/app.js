@@ -175,12 +175,12 @@ class Enemy {
 
 	// Provides a random x coordinate off screen to the left
 	getRandomX() {
-		return Math.round(Math.random() * -150) - 100;
+		return Math.round(Math.random() * -250) - 100;
 	}
 
 	// Provides a random speed
   getRandomSpeed() {
-    return Math.round(Math.random()*(350 - 200) + 200);
+    return Math.round(Math.random()*(375 - 250) + 250);
   }
 }
 
@@ -221,7 +221,7 @@ const player = new Player(202, 400, 'images/char-pink-girl.png');
 const game = new Game(player);
 const enemyPositions = [
 	player.getYStride() - 15,
-	player.getYStride() * 2 - 1500,
+	player.getYStride() * 2 - 15,
 	player.getYStride() * 3 - 15
 ];
 
