@@ -78,8 +78,9 @@ var Engine = (function(global) {
      * on the entities themselves within your app.js file).
      */
     function update(dt) {
-        updateEntities(dt);
-        // checkCollisions();
+        if(!player.getHasWon()) {      
+            updateEntities(dt);      
+        }
     }
 
     /* This is called by the update function and loops through all of the
@@ -94,6 +95,17 @@ var Engine = (function(global) {
             enemy.update(dt);
         });
         player.update();
+        checkCollisions();
+        game.update();
+    }
+
+    function checkCollisions() {
+        allEnemies.forEach(function(enemy) {
+            if(enemy.check(player)) {
+                player.setHasCollision(true);
+            }
+        });
+        
     }
 
     /* This function initially draws the "game level", it will then call

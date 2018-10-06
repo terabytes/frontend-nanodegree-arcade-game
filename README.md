@@ -1,6 +1,28 @@
-frontend-nanodegree-arcade-game
-===============================
+# Arcade Game Project
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## Table of Contents
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+* [Description](#description)
+* [Dependencies](#dependencies)
+* [Technical Feats](#technical-feats)
+* [Getting Started](#getting-started)
+
+## Instructions
+
+This is a browser-based overhead view game (similar to Frogger) tests your click-eye coordination by using collision detection and key press event listeners.
+
+The canvas consists of 3 "enemies" organized across a 3 row highway. This "highway" spans 5 columns. The enemies are randomly placed off canvas and race to the right at varying speeds. Use your arrow keys to dodge the bugs. They bite! Once you reach the shore untouched, you win!
+
+## Dependencies
+This project uses HTML, CSS, JS, and Google Fonts
+
+## Technical Feats
+* JavaScript's object-oriented programming features
+* Event listeners to detect clicks and key presses
+* DOM manipulation
+
+## Getting Started
+
+To get started on this project, begin by opening the `index.html` file to understand the structure of the page. Most, if not all, of the game logic resides in `js/app.js`. The app is driven by the game engine which resides in `js/engine.js`. Game resources such as images are loaded from `js/resources.js`.
+
+
